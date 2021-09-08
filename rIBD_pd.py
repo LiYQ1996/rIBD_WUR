@@ -40,7 +40,7 @@ def main(argv):
         elif opt in ("-B", "--B_pop_list"):
             B_pop_list = arg
         elif opt in ("-C", "--C_pop_list"):
-            O_pop_list = arg
+            C_pop_list = arg
         elif opt in ("-W", "--windowsize"):
             Window = arg
         elif opt in ("-S", "--stepsize"):
